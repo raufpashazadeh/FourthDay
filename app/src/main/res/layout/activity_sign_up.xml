@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/vvv"
+    android:padding="25dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.login_test_app.SignUpActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up !"
+        android:textSize="33dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:id="@+id/nameTextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_person"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:paddingTop="15dp"
+        android:id="@+id/SurnameTextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User surname"
+        android:inputType="textPersonName"
+        android:drawableStart="@drawable/ic_person"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:paddingTop="15dp"
+        android:id="@+id/AgeTextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User age"
+        android:inputType="number"
+        android:drawableStart="@drawable/baseline_info_24ic_info"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:paddingTop="15dp"
+        android:id="@+id/emailTextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User email"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_mail"
+        android:textColorHint="@color/white"
+        />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:id="@+id/textPasswordbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="******"
+        android:drawableStart="@drawable/ic_lock"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/buttondone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+</LinearLayout>
